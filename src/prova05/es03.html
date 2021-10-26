@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Prova 5 | Esercizio 3</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+    <script src="../index.js" defer></script>
+    <script src="../scripts/handlePickOne.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container wrapper lg:w-2/3 md:p-20">
+      <header class="my-6">
+        <h1 class="hidden">Prova 5: Famiglie e tradizioni</h1>
+        <p class="hidden" role="doc-subtitle">Grammatica</p>
+        <p
+          role="doc-subtitle"
+          aria-roledescription="consegna dell'esercizio"
+          class="instructions md:text-2xl"
+        >
+          3. Scegli la preposizione semplice o articolata.
+        </p>
+      </header>
+
+      <form action="" id="es03" autocomplete="off">
+        <div class="space-y-4">
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">A.</span>
+            Davanti
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer01"
+                  value="a"
+                  id="A1"
+                />
+                <label class="px-2 py-1 text-center prep" for="A1">a</label>
+              </div>
+              /
+              <div class="inline-block px-2 py-1 text-center">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer01"
+                  value="al"
+                  id="A2"
+                />
+                <label class="px-2 py-1 text-center prep" for="A2">al</label>
+              </div>
+            </fieldset>
+            Duomo di Firenze c’è il Battistero di San Giovanni.
+          </div>
+
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">B.</span>
+            In Italia,
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer02"
+                  value="nei"
+                  id="B1"
+                />
+                <label class="px-2 py-1 text-center prep" for="B1">nei</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer02"
+                  value="negli"
+                  id="B2"
+                />
+                <label class="px-2 py-1 text-center prep" for="B2">negli</label>
+              </div>
+            </fieldset>
+            anni Sessanta c’è stato il boom economico.
+          </div>
+
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">C.</span>
+            Vado
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer03"
+                  value="in"
+                  id="C1"
+                />
+                <label class="px-2 py-1 text-center prep" for="C1">in</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer03"
+                  value="nella"
+                  id="C2"
+                />
+                <label class="px-2 py-1 text-center prep" for="C2">nella</label>
+              </div>
+            </fieldset>
+            camera a riposare, sono a pezzi.
+          </div>
+
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">D.</span>
+            Napoli è il capoluogo
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer04"
+                  value="di"
+                  id="D1"
+                />
+                <label class="px-2 py-1 text-center prep" for="D1">di</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer04"
+                  value="della"
+                  id="D2"
+                />
+                <label class="px-2 py-1 text-center prep" for="D2">della</label>
+              </div>
+            </fieldset>
+            Campania.
+          </div>
+
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">E.</span>
+            Penso spesso
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer05"
+                  value="a"
+                  id="E1"
+                />
+                <label class="px-2 py-1 text-center prep" for="E1">a</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer05"
+                  value="alla"
+                  id="E2"
+                />
+                <label class="px-2 py-1 text-center prep" for="E2">alla</label>
+              </div>
+            </fieldset>
+            mia sorella, mi manca molto.
+          </div>
+
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">F.</span>
+            Lui è il marito
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer06"
+                  value="di"
+                  id="F1"
+                />
+                <label class="px-2 py-1 text-center prep" for="F1">di</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer06"
+                  value="della"
+                  id="F2"
+                />
+                <label class="px-2 py-1 text-center prep" for="F2">della</label>
+              </div>
+            </fieldset>
+            mia amica Eleonora, lavora
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer07"
+                  value="in"
+                  id="G1"
+                />
+                <label class="px-2 py-1 text-center prep" for="G1">in</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer07"
+                  value="nella"
+                  id="G2"
+                />
+                <label class="px-2 py-1 text-center prep" for="G2">nella</label>
+              </div>
+            </fieldset>
+            banca.
+          </div>
+
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">G.</span>
+            Maria e Virgilio sono andati ad abitare
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer08"
+                  value="in"
+                  id="H1"
+                />
+                <label class="px-2 py-1 text-center prep" for="H1">in</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer08"
+                  value="nella"
+                  id="H2"
+                />
+                <label class="px-2 py-1 text-center prep" for="H2">nella</label>
+              </div>
+            </fieldset>
+            campagna.
+          </div>
+
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">H.</span>
+            Il treno per Roma parte
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer09"
+                  value="da"
+                  id="I1"
+                />
+                <label class="px-2 py-1 text-center prep" for="I1">da</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer09"
+                  value="dal"
+                  id="I2"
+                />
+                <label class="px-2 py-1 text-center prep" for="I2">dal</label>
+              </div>
+            </fieldset>
+            binario 12.
+          </div>
+
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">I.</span>
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer10"
+                  value="tra i"
+                  id="L1"
+                />
+                <label class="px-2 py-1 text-center prep" for="L1">Tra i</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer10"
+                  value="tra"
+                  id="L2"
+                />
+                <label class="px-2 py-1 text-center prep" for="L2">Tra</label>
+              </div>
+            </fieldset>
+            miei amici, Alessia è la più simpatica.
+          </div>
+
+          <div class="flex-none p-2">
+            <span class="font-bold text-blue-700">L.</span>
+            La pizzeria Da Mimmo è lontana
+            <fieldset class="justify-between flex-none inline-block">
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer11"
+                  value="da"
+                  id="M1"
+                />
+                <label class="px-2 py-1 text-center prep" for="M1">da</label>
+              </div>
+              /
+              <div class="inline-block">
+                <input
+                  class="invisible"
+                  type="radio"
+                  name="answer11"
+                  value="dalla"
+                  id="M2"
+                />
+                <label class="px-2 py-1 text-center prep" for="M2">dalla</label>
+              </div>
+            </fieldset>
+            casa mia.
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <button class="btn" type="submit">Controlla la tua risposta</button>
+        </div>
+      </form>
+
+      <nav class="mt-6">
+        <ol class="flex justify-between">
+          <li>
+            <a
+              class="px-4 py-2 text-blue-700 hover:underline"
+              href="./es02.html"
+              >Indietro</a
+            >
+          </li>
+          <li>
+            <a
+              class="px-4 py-2 text-blue-700 hover:underline"
+              href="./index.html"
+              >Pagina iniziale</a
+            >
+          </li>
+          <li>
+            <a
+              class="px-4 py-2 text-blue-700 hover:underline"
+              href="./es04.html"
+              >Avanti</a
+            >
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>
+</html>

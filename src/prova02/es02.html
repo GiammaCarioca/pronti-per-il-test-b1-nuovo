@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Prova 2 | Esercizio 2</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+    <script src="../index.js" defer></script>
+    <script src="../scripts/handleTrueOrFalse.js" defer></script>
+  </head>
+  <body>
+    <div class="container wrapper lg:w-2/3 md:p-20">
+      <header class="my-6">
+        <h1 class="hidden">Prova 2: Scuola</h1>
+        <p class="hidden" role="doc-subtitle">Comprensione della lettura</p>
+        <p
+          role="doc-subtitle"
+          aria-roledescription="consegna dell'esercizio"
+          class="instructions md:text-2xl"
+        >
+          2. Leggi il testo, poi leggi le affermazioni seguenti. Non tutte sono
+          presenti nel testo. Indica se l’affermazione è presente (SÌ) o se NON
+          è presente (NO).
+        </p>
+      </header>
+
+      <article>
+        <div class="flex justify-center mb-6 -mt-10">
+          <h2
+            class="px-4 py-3 text-lg font-bold tracking-wide text-blue-700 bg-blue-100 shadow-lg"
+          >
+            Il sistema educativo in Italia
+          </h2>
+        </div>
+
+        <p class="py-1 leading-relaxed">
+          In Italia il sistema scolastico è organizzato per fasce d’età degli
+          studenti e delle studentesse.
+        </p>
+
+        <p class="py-1 leading-relaxed">
+          Per bambini e bambine tra i 3 e i 6 anni c’è la scuola dell’infanzia,
+          chiamata anche scuola materna. Prima dei 3 anni, i bambini e le
+          bambine possono andare all’asilo nido. Entrambe queste scuole non sono
+          obbligatorie.
+        </p>
+
+        <p class="py-1 leading-relaxed">
+          La scuola dell’obbligo copre un periodo di tempo complessivo di 10
+          anni e si divide in:
+        </p>
+
+        <section>
+          <ol class="pl-4 list-disc list-outside">
+            <li>
+              <p class="py-1 leading-relaxed">
+                scuola primaria, di durata quinquennale, per le alunne e gli
+                alunni da 6 a 11 anni. Questa scuola viene anche chiamata scuola
+                elementare;
+              </p>
+            </li>
+
+            <li>
+              <p class="py-1 leading-relaxed">
+                scuola secondaria di primo grado, detta anche scuola media, di
+                durata triennale, per le alunne e gli alunni da 11 a 14 anni. Al
+                termine della scuola media bisogna superare un esame;
+              </p>
+            </li>
+
+            <li>
+              <p class="py-1 leading-relaxed">
+                scuola secondaria di secondo grado: a 14 anni gli studenti e le
+                studentesse vengono iscritti alla scuola secondaria di secondo
+                grado, o scuola superiore, che ha una durata di 5 anni e
+                comporta il superamento di un esame chiamato esame di maturità.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <p class="py-1 leading-relaxed">
+          Esistono diversi indirizzi di studio per la scuola secondaria: i licei
+          (liceo classico, liceo scientifico, liceo linguistico ecc.), gli
+          istituti tecnici e gli istituti professionali. L’obbligo di frequenza
+          per la scuola superiore è fino ai 16 anni di età.
+        </p>
+
+        <p class="py-1 leading-relaxed">
+          I genitori delle alunne e degli alunni hanno il dovere di assicurarsi
+          che i propri figli e figlie concludano gli anni di scuola
+          dell’obbligo.
+        </p>
+
+        <p class="py-1 leading-relaxed">
+          Una volta diplomato, lo studente/la studentessa può decidere
+          autonomamente di iscriversi a un corso di laurea presso un’Università
+          e seguire un percorso di studi che può avere una durata da 3 a 5 anni.
+          Alcuni corsi universitari sono a numero chiuso e gli studenti e le
+          studentesse devono superare un test di accesso.
+        </p>
+      </article>
+
+      <form action="#" id="es02" autocomplete="off">
+        <div class="mt-3">
+          <ol class="space-y-2">
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">A.</span>
+                  La scuola in Italia è gratuita.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer01" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer01" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">B.</span>
+                  Alla fine della scuola primaria si affronta un esame.
+                </li>
+              </div>
+
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer02" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer02" value="false" id="no" />
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">C.</span>
+                  Prima dei 6 anni la scuola non è obbligatoria.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer03" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer03" value="false" id="no" />
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">D.</span>
+                  La scuola secondaria di primo grado dura 3 anni.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer04" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer04" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">E.</span>
+                  Alla fine della scuola media gli studenti affrontano l’esame
+                  di maturità.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer05" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer05" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">F.</span>
+                  In Italia esiste solo una tipologia di scuola superiore.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer06" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer06" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">G.</span>
+                  È responsabilità dei genitori degli studenti e delle
+                  studentesse garantire che i figli e le figlie portino a
+                  termine la scuola dell’obbligo.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer07" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer07" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">H.</span>
+                  Dopo la scuola secondaria di secondo grado ci si può iscrivere
+                  all’Università.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer08" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer08" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">I.</span>
+                  Per entrare in tutte le Università bisogna fare un test di
+                  accesso.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer09" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer09" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">L.</span>
+                  Tutti i ragazzi e le ragazze in Italia devono andare a scuola
+                  almeno per 10 anni.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer10" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer10" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">M.</span>
+                  L’esame di maturità è molto difficile.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer11" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer11" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">N.</span>
+                  La scuola elementare e la scuola primaria sono la stessa cosa.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer12" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer12" value="false" id="no" />
+              </div>
+            </div>
+          </ol>
+        </div>
+
+        <div class="flex justify-center">
+          <button class="btn" type="submit">Controlla la tua risposta</button>
+        </div>
+      </form>
+
+      <nav class="mt-6">
+        <ol class="flex justify-between">
+          <li>
+            <a class="nav-link hover:underline" href="./es01.html">Indietro</a>
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./index.html"
+              >Pagina iniziale</a
+            >
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./es03.html">Avanti</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>
+</html>

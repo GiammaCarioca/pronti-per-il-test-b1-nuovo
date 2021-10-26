@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Prova 3 | Esercizio 1</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+    <script src="../index.js" defer></script>
+    <script src="../scripts/handleMultipleChoice.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container wrapper lg:w-2/3 md:p-20">
+      <header class="my-6">
+        <h1 class="hidden">Prova 3: Lavoro</h1>
+        <p class="hidden" role="doc-subtitle">Comprensione della lettura</p>
+        <p
+          role="doc-subtitle"
+          aria-roledescription="consegna dell'esercizio"
+          class="instructions md:text-2xl"
+        >
+          1. Leggi il testo e rispondi alla domanda.
+        </p>
+      </header>
+
+      <article>
+        <div class="flex justify-center mb-6 -mt-10">
+          <h2
+            class="inline px-4 py-2 text-lg font-bold tracking-wide text-blue-700 bg-blue-100 shadow-lg"
+          >
+            Offerte di lavoro
+          </h2>
+        </div>
+
+        <p class="py-1 leading-relaxed">
+          Ristorante/pizzeria in periferia a Milano, zona Corvetto, cerca
+          camerieri di sala per lavoro serale dal giovedì alla domenica.
+          Requisiti: esperienza di almeno 2 anni nel settore ristorazione, buona
+          volontà, puntualità. La conoscenza dell’inglese sarà valutata come
+          requisito preferenziale.
+        </p>
+        <p class="py-1 leading-relaxed">
+          Si offre: contratto a tempo determinato di 6 mesi ed eventuale
+          possibilità di assunzione indeterminata.
+        </p>
+        <p class="py-1 leading-relaxed">Compenso da concordare.</p>
+        <p class="py-1 leading-relaxed">
+          Il presente annuncio è rivolto a entrambi i sessi.
+        </p>
+        <p class="py-1 leading-relaxed">
+          Se interessati inviare curriculum a pizzeriacorvetto@gmail.com
+        </p>
+      </article>
+
+      <form action="#" id="es01" autocomplete="off">
+        <fieldset>
+          <legend class="my-3 text-lg font-bold">L’annuncio</legend>
+          <div class="space-y-2">
+            <label class="block p-1" for="1a">
+              <span class="font-bold text-blue-700">A.</span>
+              <input type="radio" name="answer01" value="a" id="1a" />
+              offre subito un contratto a tempo indeterminato.
+            </label>
+
+            <label class="block p-1" for="1b">
+              <span class="font-bold text-blue-700">B.</span>
+              <input type="radio" name="answer01" value="b" id="1b" />
+              si rivolge solo a persone che parlano inglese.
+            </label>
+
+            <label class="block p-1" for="1c">
+              <span class="font-bold text-blue-700">C.</span>
+              <input type="radio" name="answer01" value="c" id="1c" />
+              non specifica lo stipendio.
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="flex justify-center">
+          <button class="btn" type="submit">Controlla la tua risposta</button>
+        </div>
+      </form>
+
+      <nav class="mt-6">
+        <ol class="flex justify-between">
+          <li>
+            <a
+              class="px-4 py-2 text-blue-700 hover:underline"
+              href="../prova02/es10.html"
+              >Prova 2</a
+            >
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./index.html"
+              >Pagina iniziale</a
+            >
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./es02.html">Avanti</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>
+</html>

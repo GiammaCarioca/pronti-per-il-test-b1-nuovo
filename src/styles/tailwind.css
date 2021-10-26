@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@tailwind base;
+@tailwind components;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  @apply text-gray-800;
+  @apply bg-gray-100;
+}
+
+.wrapper {
+  @apply p-6;
+  @apply mx-auto;
+}
+
+.instructions {
+  @apply text-xl;
+  @apply font-bold;
+}
+
+article {
+  @apply p-4;
+  @apply mt-12;
+  @apply mb-6;
+  @apply border-2;
+  @apply border-blue-700;
+  @apply border-dashed;
+}
+
+input[type='text'] {
+  @apply bg-blue-100;
+}
+
+input[type='radio'] {
+  @apply w-6;
+  @apply h-6;
+  @apply text-blue-400;
+}
+
+input.invisible[type='radio'] {
+  @apply hidden;
+}
+
+input[type='radio'] + label.prep {
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: rgba(197, 230, 244, 1);
+}
+
+input[type='radio']:checked + label.prep {
+  background-color: #0099cc;
+  color: whitesmoke;
+  transition: 0.3s ease-out;
+}
+
+input[type='text'].gap-sm {
+  @apply w-16;
+  @apply h-8;
+  @apply mt-1;
+  @apply text-center;
+}
+
+input[type='text'].gap-md {
+  @apply w-24;
+  @apply h-8;
+  @apply mt-1;
+  @apply text-center;
+}
+
+input[type='text'].gap-lg {
+  @apply w-40;
+  @apply h-8;
+  @apply mt-1;
+  @apply text-center;
+}
+
+input.right[type='text'],
+select.right,
+option.right {
+  @apply border;
+  @apply border-green-500;
+  @apply border-solid;
+}
+
+input.wrong[type='text'],
+select.wrong,
+option.wrong {
+  @apply border;
+  @apply border-red-500;
+  @apply border-solid;
+}
+
+label.right,
+div.right,
+fieldset.right {
+  @apply leading-normal;
+  @apply text-gray-100;
+  @apply bg-green-500;
+  @apply rounded;
+  @apply shadow-lg;
+}
+
+input[type='radio']:checked + label.prep.right {
+  @apply leading-normal;
+  @apply text-gray-100;
+  @apply bg-green-500;
+  @apply rounded-none;
+  @apply shadow-lg;
+}
+
+input[type='radio']:not(:checked) + label.prep.right,
+input[type='radio']:not(:checked) + label.prep.wrong {
+  @apply leading-normal;
+  @apply text-gray-800;
+  @apply rounded-none;
+  @apply shadow-lg;
+}
+
+label.right span,
+div.right span,
+fieldset.right span {
+  @apply text-gray-100;
+}
+
+label.wrong,
+div.wrong,
+fieldset.wrong {
+  @apply leading-normal;
+  @apply text-gray-100;
+  @apply bg-red-500;
+  @apply rounded;
+  @apply shadow-lg;
+}
+
+input[type='radio']:checked + label.prep.wrong {
+  @apply leading-normal;
+  @apply text-gray-100;
+  @apply bg-red-500;
+  @apply rounded-none;
+  @apply shadow-lg;
+}
+
+label.wrong span,
+div.wrong span,
+fieldset.wrong span {
+  @apply text-gray-100;
+}
+
+.btn {
+  @apply px-4;
+  @apply py-2;
+  @apply my-8;
+  @apply font-bold;
+  @apply text-blue-700;
+  @apply bg-transparent;
+  @apply border-2;
+  @apply border-blue-700;
+  @apply border-solid;
+  @apply rounded;
+  @apply shadow-lg;
+}
+
+.btn:hover {
+  @apply text-blue-100;
+  @apply bg-blue-700;
+}
+
+.btn:focus {
+  @apply shadow-outline;
+  @apply outline-none;
+}
+
+.btn:active {
+  @apply text-blue-100;
+  @apply bg-blue-800;
+}
+
+.disabled {
+  @apply text-gray-300;
+  @apply border-gray-300;
+}
+
+.disabled:hover {
+  @apply text-gray-300;
+  @apply bg-transparent;
+  @apply cursor-not-allowed;
+}
+
+.nav-link {
+  @apply px-4;
+  @apply py-2;
+  @apply text-blue-700;
+}
+
+/* @screen lg {
+  .btn {
+    @apply bg-green-700;
+  }
+} */
+
+@tailwind utilities;

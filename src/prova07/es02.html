@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Prova 7 | Esercizio 2</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+    <script src="../index.js" defer></script>
+    <script src="../scripts/handleTrueOrFalse.js" defer></script>
+  </head>
+  <body>
+    <div class="container wrapper lg:w-2/3 md:p-20">
+      <header class="my-6">
+        <h1 class="hidden">Prova 7: Viaggi e tempo libero</h1>
+        <p class="hidden" role="doc-subtitle">Comprensione della lettura</p>
+        <p
+          role="doc-subtitle"
+          aria-roledescription="consegna dell'esercizio"
+          class="instructions md:text-2xl"
+        >
+          2. Leggi il testo, poi leggi le affermazioni seguenti. Non tutte sono
+          presenti nel testo. Indica se l’affermazione è presente (SÌ) o se NON
+          è presente (NO).
+        </p>
+      </header>
+
+      <article>
+        <div class="flex justify-center mb-6 -mt-10">
+          <h2
+            class="px-4 py-3 text-lg font-bold tracking-wide text-blue-700 bg-blue-100 shadow-lg"
+          >
+            Il passaporto italiano
+          </h2>
+        </div>
+
+        <p class="py-1 leading-relaxed">
+          Il passaporto è rilasciato ai cittadini italiani e per i maggiorenni
+          ha durata decennale. Alla scadenza della validità, riportata
+          all’interno del documento, non si rinnova ma si deve richiedere
+          l’emissione di un nuovo passaporto.
+        </p>
+
+        <p class="py-1 leading-relaxed">
+          L’iscrizione del minore sul passaporto del genitore non è più valida
+          dal 27 giugno 2012. Infatti, da questa data, il minore può viaggiare
+          in Europa e all’estero solo con un documento di viaggio individuale.
+        </p>
+
+        <section>
+          <h3 class="pt-6 text-lg font-bold">
+            Come e dove presentare la domanda
+          </h3>
+          <p class="py-1 leading-relaxed">
+            Consulta il sito www.passaportonline.poliziadistato.it, il servizio
+            della Polizia di Stato per richiedere online il passaporto e per
+            prenotare ora, data e luogo per presentare la domanda, eliminando le
+            lunghe attese negli uffici di Polizia.
+          </p>
+
+          <p class="py-1 leading-relaxed">
+            Se le date disponibili online sono terminate e ci sono urgenze
+            adeguatamente motivate (lavoro, salute e studio), potete rivolgervi
+            direttamente alla vostra Questura o Commissariato. Dal 24 giugno
+            2014 è abolita la tassa annuale del passaporto ordinario da 40,29
+            euro.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="pt-6 text-lg font-bold">
+            Richiesta di passaporto all’estero
+          </h3>
+          <p class="py-1 leading-relaxed">
+            I cittadini italiani all’estero che devono richiedere il passaporto
+            devono consultare il sito web del ministero Affari Esteri.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="pt-6 text-lg font-bold">
+            Servizio Passaporti a domicilio
+          </h3>
+          <p class="py-1 leading-relaxed">
+            Dal 27 ottobre 2014 prendi il via su scala nazionale il servizio
+            Passaporti a domicilio: al cittadino che ne fa richiesta, grazie a
+            una convenzione con Poste Italiane, il documento emesso verrà
+            recapitato a domicilio con un costo di 9,05 euro da pagare in
+            contrassegno al momento della consegna, ovvero direttamente
+            all’incaricato di Poste Italiane.
+          </p>
+        </section>
+      </article>
+
+      <form action="#" id="es02" autocomplete="off">
+        <div class="mt-3">
+          <ol class="space-y-2">
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">A.</span>
+                  Il passaporto scade dopo 10 anni se hai più di 18 anni.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer01" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer01" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">B.</span>
+                  Non è possibile rinnovare il passaporto.
+                </li>
+              </div>
+
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer02" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer02" value="false" id="no" />
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">C.</span>
+                  Il figlio minorenne deve avere il proprio passaporto.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer03" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer03" value="false" id="no" />
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">D.</span>
+                  Il passaporto dei minorenni deve essere firmato da entrambi i
+                  genitori.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer04" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer04" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">E.</span>
+                  È obbligatorio prenotare l’appuntamento online.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer05" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer05" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">F.</span>
+                  Se si prenota online si evitano le code.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer06" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer06" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">G.</span>
+                  In caso di necessità per motivi di studio ci si può rivolgere
+                  alla Questura.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer07" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer07" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">H.</span>
+                  Il passaporto è obbligatorio per chi viaggia fuori dall’UE.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer08" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer08" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">I.</span>
+                  Per richiedere il passaporto dall’estero bisogna recarsi al
+                  Ministero degli Affari Esteri.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer09" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer09" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">L.</span>
+                  È necessario pagare la tassa annuale di 40,29 euro.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer10" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer10" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">M.</span>
+                  C’è la possibilità di farsi consegnare il passaporto a casa.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer11" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer11" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">N.</span>
+                  Per il passaporto a domicilio bisogna pagare 9,05 euro quando
+                  lo si richiede.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer12" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer12" value="false" id="no" />
+              </div>
+            </div>
+          </ol>
+        </div>
+
+        <div class="flex justify-center">
+          <button class="btn" type="submit">Controlla la tua risposta</button>
+        </div>
+      </form>
+
+      <nav class="mt-6">
+        <ol class="flex justify-between">
+          <li>
+            <a class="nav-link hover:underline" href="./es01.html">Indietro</a>
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./index.html"
+              >Pagina iniziale</a
+            >
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./es03.html">Avanti</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>
+</html>

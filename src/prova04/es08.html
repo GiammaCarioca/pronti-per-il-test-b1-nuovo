@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Prova 4 | Esercizio 8</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+    <script src="../index.js" defer></script>
+    <script src="../scripts/handleTrueOrFalse.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container wrapper lg:w-2/3 md:p-20">
+      <header class="my-6">
+        <h1 class="hidden">Prova 4: Salute</h1>
+        <p class="hidden" role="doc-subtitle">Comprensione dell’ascolto</p>
+        <p
+          role="doc-subtitle"
+          aria-roledescription="consegna dell'esercizio"
+          class="instructions md:text-2xl"
+        >
+          8. Ascolta il testo che parla dei vaccini obbligatori nelle scuole e
+          poi leggi le affermazioni seguenti. Non tutte sono presenti nel testo.
+          Indica se l’affermazione è presente (SÌ) o se NON è presente (NO).
+          <span
+            class="block px-4 py-3 my-6 text-lg font-bold tracking-wide text-blue-700 bg-blue-100 shadow-lg"
+            >Le affermazioni ripetono le stesse parole del testo.</span
+          >
+        </p>
+      </header>
+
+      <figure class="my-6">
+        <!-- <figcaption>Clicca per ascoltare la traccia:</figcaption> -->
+        <audio
+          controls
+          src="https://res.cloudinary.com/italianorio/video/upload/v1607362117/pronti-per-il-test-b1/audio/Audio_14_toaglw.mp3"
+        >
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
+      </figure>
+
+      <form action="" id="es08" autocomplete="off">
+        <div class="space-y-4">
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">A.</span>
+                i numeri dei vaccini dell’obbligo
+              </legend>
+            </div>
+
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer01"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer01"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">B.</span>
+                possono essere omesse o riferite
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer02"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer02"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">C.</span>
+                violazione dell’obbligo vaccinale
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer03"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer03"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">D.</span>
+                ha dovuto segnalare
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer04"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer04"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">E.</span>
+                contrastare il progressivo calo
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer05"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer05"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">F.</span>
+                ai nati nel 2017
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer06"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer06"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">G.</span>
+                permettere all’asilo
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer07"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer07"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">H.</span>
+                possono accedere comunque
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer08"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer08"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">I.</span>
+                sono normalmente ingeriti
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer09"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer09"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">L.</span>
+                campagna straordinaria di sensibilizzazione
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer10"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer10"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">L.</span>
+                formazione del personale docente
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer11"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer11"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="flex justify-between">
+            <div>
+              <legend class="flex-initial p-2">
+                <span class="font-bold text-blue-700">L.</span>
+                i ragazzi già immunizzati
+              </legend>
+            </div>
+            <div class="flex-none p-2">
+              <label for="si">Sì</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer12"
+                value="true"
+                id="si"
+              />
+              <label for="no">No</label>
+              <input
+                class="w-6 h-6"
+                type="radio"
+                name="answer12"
+                value="false"
+                id="no"
+              />
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="flex justify-center">
+          <button class="btn" type="submit">Controlla la tua risposta</button>
+        </div>
+      </form>
+
+      <nav class="mt-6">
+        <ol class="flex justify-between">
+          <li>
+            <a
+              class="px-4 py-2 text-blue-700 hover:underline"
+              href="./es07.html"
+              >Indietro</a
+            >
+          </li>
+          <li>
+            <a
+              class="px-4 py-2 text-blue-700 hover:underline"
+              href="./index.html"
+              >Pagina iniziale</a
+            >
+          </li>
+          <li>
+            <a
+              class="px-4 py-2 text-blue-700 hover:underline"
+              href="./es09.html"
+              >Avanti</a
+            >
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>
+</html>

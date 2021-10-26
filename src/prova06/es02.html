@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Prova 6 | Esercizio 2</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+    <script src="../index.js" defer></script>
+    <script src="../scripts/handleTrueOrFalse.js" defer></script>
+  </head>
+  <body>
+    <div class="container wrapper lg:w-2/3 md:p-20">
+      <header class="my-6">
+        <h1 class="hidden">Prova 6: Casa</h1>
+        <p class="hidden" role="doc-subtitle">Comprensione della lettura</p>
+        <p
+          role="doc-subtitle"
+          aria-roledescription="consegna dell'esercizio"
+          class="instructions md:text-2xl"
+        >
+          2. Leggi il testo, poi leggi le affermazioni seguenti. Non tutte sono
+          presenti nel testo. Indica se l’affermazione è presente (SÌ) o se NON
+          è presente (NO).
+        </p>
+      </header>
+
+      <article>
+        <div class="flex justify-center mb-6 -mt-10">
+          <h2
+            class="px-4 py-3 text-lg font-bold tracking-wide text-blue-700 bg-blue-100 shadow-lg"
+          >
+            Regolamento di condominio
+          </h2>
+        </div>
+
+        <p class="py-1 leading-relaxed">
+          Il regolamento condominiale contiene le norme riguardanti l’uso delle
+          cose comuni ed è obbligatorio per gli edifici con numero di condomini
+          superiore a 10.
+        </p>
+
+        <p class="py-1 leading-relaxed">
+          In caso di mancato rispetto delle norme condominiali è prevista una
+          sanzione da 200 a 800 euro.
+        </p>
+
+        <p class="py-1 leading-relaxed">
+          Questi sono gli obblighi dei condomini:
+        </p>
+
+        <section>
+          <ol class="pl-4 list-disc list-outside">
+            <li>
+              <p class="py-1 leading-relaxed">
+                consentire l’ingresso dell’amministratore nel proprio
+                appartamento per i controlli necessari alla manutenzione;
+              </p>
+            </li>
+
+            <li>
+              <p class="py-1 leading-relaxed">
+                informare l’amministratore dei lavori di ristrutturazione
+                all’interno dei propri locali prima dell’inizio degli stessi;
+              </p>
+            </li>
+
+            <li>
+              <p class="py-1 leading-relaxed">
+                informare l’amministratore di un eventuale vendita.
+              </p>
+            </li>
+
+            <li>
+              <p class="py-1 leading-relaxed">
+                nel caso di assenza prolungata, indicare all’amministratore il
+                nominativo e il recapito di chi è in possesso delle chiavi
+                dell’appartamento.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <p class="py-1 leading-relaxed">Questi invece i divieti:</p>
+
+        <section>
+          <ol class="pl-4 list-disc list-outside">
+            <li>
+              <p class="py-1 leading-relaxed">
+                sui parapetti dei balconi e sui davanzali delle finestre non si
+                possono mettere vasi o piante, a meno che queste non siano
+                fissati in modo sicuro;
+              </p>
+            </li>
+
+            <li>
+              <p class="py-1 leading-relaxed">
+                è vietato disturbare gli altri condomini nelle ore di riposo
+                diurno e notturno;
+              </p>
+            </li>
+
+            <li>
+              <p class="py-1 leading-relaxed">
+                non si possono gettare nei tombini e negli scarichi dei
+                materiali che potrebbero ingombrare le tubature. Qualsiasi spesa
+                per la riparazione sarà a carico di chi ha causato il danno;
+              </p>
+            </li>
+
+            <li>
+              <p class="py-1 leading-relaxed">
+                è vietato gettare acqua e rifiuti di qualsiasi genere da
+                finestre e balconi.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <p class="py-1 leading-relaxed">
+          L’amministratore, che resterà in carica 2 anni, deve aver conseguito
+          almeno il diploma di maturità e deve aver frequentato un corso
+          apposito.
+        </p>
+
+        <p class="py-1 leading-relaxed">
+          Ci sono delle norme che regolano il possesso di animali domestici e il
+          loro accesso agli spazi condominiali, ma non esiste nessuna legge che
+          vieti l’ingresso di animali domestici all’interno del condominio.
+          Tuttavia, chi lascia gli animali per lungo tempo da soli è
+          sanzionabile per omessa custodia.
+        </p>
+      </article>
+
+      <form action="#" id="es02" autocomplete="off">
+        <div class="mt-3">
+          <ol class="space-y-2">
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">A.</span>
+                  Tutti gli edifici devono avere un regolamento condominiale.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer01" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer01" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">B.</span>
+                  Chi non rispetta le regole del condominio deve pagare una
+                  multa.
+                </li>
+              </div>
+
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer02" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer02" value="false" id="no" />
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">C.</span>
+                  Non si può vietare l’accesso all’amministratore nella propria
+                  casa.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer03" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer03" value="false" id="no" />
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">D.</span>
+                  È consentita la vendita dei locali previa comunicazione
+                  all’amministratore.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer04" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer04" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">E.</span>
+                  Se vado via per molto tempo, devo dire all’amministratore chi
+                  ha le chiavi del mio appartamento.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer05" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer05" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">F.</span>
+                  Bisogna avvisare l’amministratore dopo aver fatto lavori di
+                  ristrutturazione.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer06" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer06" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">G.</span>
+                  Non si può giocare a pallone in cortile.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer07" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer07" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">H.</span>
+                  I rifiuti vanno smaltiti in appositi contenitori all’interno
+                  degli spazi condominiali.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer08" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer08" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">I.</span>
+                  L’amministratore deve essere laureato.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer09" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer09" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">L.</span>
+                  L’amministratore resta in carica per un periodo di tempo
+                  limitato.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer10" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer10" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">M.</span>
+                  Sono ammessi solo cani di piccola taglia all’interno degli
+                  spazi condominiali.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer11" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer11" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">N.</span>
+                  Non si possono lasciare animali incustoditi per lunghi
+                  periodi.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer12" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer12" value="false" id="no" />
+              </div>
+            </div>
+          </ol>
+        </div>
+
+        <div class="flex justify-center">
+          <button class="btn" type="submit">Controlla la tua risposta</button>
+        </div>
+      </form>
+
+      <nav class="mt-6">
+        <ol class="flex justify-between">
+          <li>
+            <a class="nav-link hover:underline" href="./es01.html">Indietro</a>
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./index.html"
+              >Pagina iniziale</a
+            >
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./es03.html">Avanti</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Prova 3 | Esercizio 7</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+    <script src="../index.js" defer></script>
+    <script src="../scripts/handleMultipleChoice.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container wrapper lg:w-2/3 md:p-20">
+      <header class="my-6">
+        <h1 class="hidden">Prova 3: Lavoro</h1>
+        <p class="hidden" role="doc-subtitle">Comprensione dell’ascolto</p>
+        <p
+          role="doc-subtitle"
+          aria-roledescription="consegna dell'esercizio"
+          class="instructions md:text-2xl"
+        >
+          7. Ascolta i testi. Poi completa le frasi: scegli una delle tre
+          proposte di completamento.
+        </p>
+      </header>
+
+      <form action="#" id="es07" autocomplete="off">
+        <figure class="my-6">
+          <!-- <figcaption>Clicca per ascoltare la traccia:</figcaption> -->
+          <audio
+            controls
+            src="https://res.cloudinary.com/italianorio/video/upload/v1607362131/pronti-per-il-test-b1/audio/Audio_09_dhrzyj.mp3"
+          >
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+        </figure>
+
+        <fieldset class="mt-4">
+          <legend class="my-3 text-lg font-bold">1. Franca</legend>
+
+          <div class="space-y-2">
+            <label class="block p-1" for="1a">
+              <span class="font-bold text-blue-700">A.</span>
+              <input type="radio" name="answer01" value="a" id="1a" />
+              la prossima settimana inizia un nuovo lavoro.
+            </label>
+            <label class="block p-1" for="1b">
+              <span class="font-bold text-blue-700">B.</span>
+              <input type="radio" name="answer01" value="b" id="1b" />
+              vuole fare una cena.
+            </label>
+            <label class="block p-1" for="1c">
+              <span class="font-bold text-blue-700">C.</span>
+              <input type="radio" name="answer01" value="c" id="1c" />
+              ha fatto un colloquio che andato male.
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <legend class="my-3 text-lg font-bold">2. La signora Rossi</legend>
+
+          <div class="space-y-2">
+            <label class="block p-1" for="2a">
+              <span class="font-bold text-blue-700">A.</span>
+              <input type="radio" name="answer02" value="a" id="2a" />
+              va in vacanza per cinque mesi.
+            </label>
+
+            <label class="block p-1" for="2b">
+              <span class="font-bold text-blue-700">B.</span>
+              <input type="radio" name="answer02" value="b" id="2b" />
+              vuole fare un regalo alla nipote.
+            </label>
+
+            <label class="block p-1" for="2c">
+              <span class="font-bold text-blue-700">C.</span>
+              <input type="radio" name="answer02" value="c" id="2c" />
+              deve trovare qualcuno che la aiuti con il cane.
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <legend class="my-3 text-lg font-bold">
+            3. Durante le sue vacanze in Puglia, Elena
+          </legend>
+
+          <div class="space-y-2">
+            <label class="block p-1" for="3a">
+              <span class="font-bold text-blue-700">A.</span>
+              <input type="radio" name="answer03" value="a" id="3a" />
+              ha trovato le spiagge affollate.
+            </label>
+
+            <label class="block p-1" for="3b">
+              <span class="font-bold text-blue-700">B.</span>
+              <input type="radio" name="answer03" value="b" id="3b" />
+              ha usato i mezzi pubblici.
+            </label>
+
+            <label class="block p-1" for="3c">
+              <span class="font-bold text-blue-700">C.</span>
+              <input type="radio" name="answer03" value="c" id="3c" />
+              ha evitato il traffico.
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <legend class="my-3 text-lg font-bold">
+            4. L’ospite dell’albergo
+          </legend>
+
+          <div class="space-y-2">
+            <label class="block p-1" for="4a">
+              <span class="font-bold text-blue-700">A.</span>
+              <input type="radio" name="answer04" value="a" id="4a" />
+              deve prendere un treno nel pomeriggio.
+            </label>
+
+            <label class="block p-1" for="4b">
+              <span class="font-bold text-blue-700">B.</span>
+              <input type="radio" name="answer04" value="b" id="4b" />
+              può lasciare i bagagli in camera.
+            </label>
+
+            <label class="block p-1" for="4c">
+              <span class="font-bold text-blue-700">C.</span>
+              <input type="radio" name="answer04" value="c" id="4c" />
+              deve partire alle 12.
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <legend class="my-3 text-lg font-bold">
+            5. L’annuncio di lavoro
+          </legend>
+
+          <div class="space-y-2">
+            <label class="block p-1" for="5a">
+              <span class="font-bold text-blue-700">A.</span>
+              <input type="radio" name="answer05" value="a" id="5a" />
+              comunica che le selezioni finiscono il 22 luglio
+            </label>
+
+            <label class="block p-1" for="5b">
+              <span class="font-bold text-blue-700">B.</span>
+              <input type="radio" name="answer05" value="b" id="5b" />
+              dice che bisogna candidarsi in via Trieste a Bergamo.
+            </label>
+
+            <label class="block p-1" for="5c">
+              <span class="font-bold text-blue-700">C.</span>
+              <input type="radio" name="answer05" value="c" id="5c" />
+              si rivolge a tutte le persone in cerca di lavoro.
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <legend class="my-3 text-lg font-bold">6. Lo sportello lavoro</legend>
+
+          <div class="space-y-2">
+            <label class="block p-1" for="6a">
+              <span class="font-bold text-blue-700">A.</span>
+              <input type="radio" name="answer06" value="a" id="6a" />
+              è aperto di giovedì mattina.
+            </label>
+
+            <label class="block p-1" for="6b">
+              <span class="font-bold text-blue-700">B.</span>
+              <input type="radio" name="answer06" value="b" id="6b" />
+              è accessibile solo su appuntamento telefonico.
+            </label>
+
+            <label class="block p-1" for="6c">
+              <span class="font-bold text-blue-700">C.</span>
+              <input type="radio" name="answer06" value="c" id="6c" />
+              è rivolto a tutti i tipi di lavoratori.
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <legend class="my-3 text-lg font-bold">7. Secondo la notizia</legend>
+
+          <div class="space-y-2">
+            <label class="block p-1" for="7a">
+              <span class="font-bold text-blue-700">A.</span>
+              <input type="radio" name="answer07" value="a" id="7a" />
+              oggi in Italia ci sono più pensionati che lavoratori.
+            </label>
+
+            <label class="block p-1" for="7b">
+              <span class="font-bold text-blue-700">B.</span>
+              <input type="radio" name="answer07" value="b" id="7b" />
+              è diminuito il tasso di disoccupazione.
+            </label>
+
+            <label class="block p-1" for="7c">
+              <span class="font-bold text-blue-700">C.</span>
+              <input type="radio" name="answer07" value="c" id="7c" />
+              negli ultimi tre mesi il tasso di disoccupazione è rimasto
+              inferiore al 10%.
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <legend class="my-3 text-lg font-bold">8. L’imprenditore</legend>
+
+          <div class="space-y-2">
+            <label class="block p-1" for="8a">
+              <span class="font-bold text-blue-700">A.</span>
+              <input type="radio" name="answer08" value="a" id="8a" />
+              è titolare di un’impresa della ristorazione.
+            </label>
+
+            <label class="block p-1" for="8b">
+              <span class="font-bold text-blue-700">B.</span>
+              <input type="radio" name="answer08" value="b" id="8b" />
+              ha fatto lavorare alcune persone senza contratto.
+            </label>
+
+            <label class="block p-1" for="8c">
+              <span class="font-bold text-blue-700">C.</span>
+              <input type="radio" name="answer08" value="c" id="8c" />
+              deve chiudere per sempre la sua attività.
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="flex justify-center">
+          <button class="btn" type="submit">Controlla la tua risposta</button>
+        </div>
+      </form>
+
+      <nav class="mt-6">
+        <ul class="flex justify-between">
+          <li>
+            <a class="nav-link hover:underline" href="./es06.html">Indietro</a>
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./index.html"
+              >Pagina iniziale</a
+            >
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./es08.html">Avanti</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>

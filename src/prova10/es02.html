@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Prova 10 | Esercizio 2</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+    <script src="../index.js" defer></script>
+    <script src="../scripts/handleTrueOrFalse.js" defer></script>
+  </head>
+  <body>
+    <div class="container wrapper lg:w-2/3 md:p-20">
+      <header class="my-6">
+        <h1 class="hidden">Prova 10: Tasse e contributi</h1>
+        <p class="hidden" role="doc-subtitle">Comprensione della lettura</p>
+        <p
+          role="doc-subtitle"
+          aria-roledescription="consegna dell'esercizio"
+          class="instructions md:text-2xl"
+        >
+          2. Leggi il testo, poi leggi le affermazioni seguenti. Non tutte sono
+          presenti nel testo. Indica se l’affermazione è presente (SÌ) o se NON
+          è presente (NO).
+        </p>
+      </header>
+
+      <article>
+        <div class="flex justify-center mb-6 -mt-10">
+          <h2
+            class="px-4 py-3 text-lg font-bold tracking-wide text-blue-700 bg-blue-100 shadow-lg"
+          >
+            L’indennità di disoccupazione
+          </h2>
+        </div>
+
+        <p class="py-1 leading-relaxed">
+          La NASpI è l’indennità di disoccupazione, ne hanno diritto tutti i
+          lavoratori e le lavoratrici dipendenti che hanno perso
+          involontariamente il lavoro. Inoltre, possono richiedere l’indennità
+          di disoccupazione anche le lavoratrici che hanno presentato le
+          dimissioni nel periodo della maternità, perché si tratta di dimissioni
+          per giusta causa.
+        </p>
+
+        <section>
+          <p class="py-1 leading-relaxed">Per ottenere la NASpI bisogna:</p>
+          <ol class="pl-4 list-disc list-outside">
+            <li>
+              <p class="py-1 leading-relaxed">
+                essere disoccupati o disoccupate;
+              </p>
+              <p class="py-1 leading-relaxed">
+                aver versato almeno 13 settimane di contributi negli ultimi
+                quattro anni di lavoro prima della disoccupazione;
+              </p>
+              <p class="py-1 leading-relaxed">
+                aver maturato almeno 30 giornate di lavoro nei 12 mesi che
+                precedono l’inizio del periodo di disoccupazione.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section>
+          <h3 class="pt-6 text-lg font-bold">Come fare richiesta</h3>
+          <p class="py-1 leading-relaxed">
+            La domanda di disoccupazione deve essere presentata entro 68 giorni
+            dalla perdita del posto di lavoro e dovrà essere inviata
+            esclusivamente in modalità telematica, attraverso il sito dell’Inps.
+          </p>
+
+          <p class="py-1 leading-relaxed">
+            Per svolgere le pratiche è necessario avere il Pin dell’Inps. Nel
+            caso in cui non se ne fosse in possesso, ci si può rivolgere al
+            patronato per essere supportati nella compilazione della richiesta
+            che sarà comunque inviata telematicamente.
+          </p>
+
+          <p class="py-1 leading-relaxed">
+            La durata dell’indennità di disoccupazione dipende dalla storia
+            contributiva del lavoratore, in ogni caso non può superare i due
+            anni.
+          </p>
+
+          <p class="py-1 leading-relaxed">
+            La NASpI, come ogni altro tipo di contributo per la disoccupazione,
+            termina quando il lavoratore o la lavoratrice ha percepito le
+            giornate d'indennità che gli spettano oppure quando inizia un nuovo
+            lavoro, o diventa titolare di pensione.
+          </p>
+        </section>
+      </article>
+
+      <form action="#" id="es02" autocomplete="off">
+        <div class="mt-3">
+          <ol class="space-y-2">
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">A.</span>
+                  Chi si dimette dal proprio lavoro non ha diritto alla NASpI.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer01" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer01" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">B.</span>
+                  La NASpI sostituisce il congedo di maternità.
+                </li>
+              </div>
+
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer02" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer02" value="false" id="no" />
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">C.</span>
+                  La domanda per la disoccupazione si può inviare solo tramite
+                  Internet.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer03" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer03" value="false" id="no" />
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">D.</span>
+                  La NASpI ha una durata di due anni per tutti i lavoratori e
+                  lavoratrici.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer04" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer04" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">E.</span>
+                  Le lavoratrici che si dimettono per aver avuto un bambino
+                  hanno diritto alla NASpI.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer05" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer05" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">F.</span>
+                  Per avere diritto alla NASpI è necessario aver lavorato
+                  regolarmente negli ultimi anni.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer06" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer06" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">G.</span>
+                  Per fare richiesta alla NASpI è necessario aver lavorato
+                  almeno 68 giorni nell’ultimo anno.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer07" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer07" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">H.</span>
+                  I dipendenti dell’Inps possono aiutare i lavoratori e le
+                  lavoratrici a compilare la domanda di disoccupazione.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer08" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer08" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">I.</span>
+                  L’importo massimo della NASpI è di 1.221,44 euro mensili.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer09" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer09" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">L.</span>
+                  Quando si trova un nuovo impiego non sia ha più diritto alla
+                  NASpI.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer10" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer10" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">M.</span>
+                  La NASpI viene ridotta quando il lavoratore diventa titolare
+                  di pensione.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer11" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer11" value="false" id="no" />
+              </div>
+            </div>
+
+            <div class="flex justify-between">
+              <div>
+                <li class="flex-initial p-2">
+                  <span class="font-bold text-blue-700">N.</span>
+                  Solo i cittadini italiani hanno diritto alla NASpI.
+                </li>
+              </div>
+              <div class="flex-none p-2">
+                <label for="si">Sì</label>
+                <input type="radio" name="answer12" value="true" id="si" />
+                <label for="no">No</label>
+                <input type="radio" name="answer12" value="false" id="no" />
+              </div>
+            </div>
+          </ol>
+        </div>
+
+        <div class="flex justify-center">
+          <button class="btn" type="submit">Controlla la tua risposta</button>
+        </div>
+      </form>
+
+      <nav class="mt-6">
+        <ol class="flex justify-between">
+          <li>
+            <a class="nav-link hover:underline" href="./es01.html">Indietro</a>
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./index.html"
+              >Pagina iniziale</a
+            >
+          </li>
+          <li>
+            <a class="nav-link hover:underline" href="./es03.html">Avanti</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>
+</html>
